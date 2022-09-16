@@ -109,6 +109,9 @@ print(text3[::-1])
 
 # Extract the first word of the following sentence using slicing, and display it on the screen:
 words= "Controlling complexity is the essence of programming"
+all_words = words.split()
+print(all_words)
+print("frist word is: " + all_words[0])
 
 
 # create a text input that asks for choice of food
