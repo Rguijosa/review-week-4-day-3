@@ -100,6 +100,7 @@ print(text1.upper())
 # Take every third character starting from the ninth to the end of the sentence, and print the result.
 
 text2 = "Never trust a computer you can't throw out a window"
+print(text2[8::3])
 
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 
