@@ -27,12 +27,14 @@ transportation_means = ["plane", "car", "ship", "bicycle"]
 transportation_means.append("motorcycle")
 # append adds element to the end
 print(transportation_means)
-transportation_means.remove("motorcycle")
+transportation_means.remove("car")
 
 print(transportation_means)
 NewTrans= transportation_means.pop()
 # pop removes last element
 print("my new tranportation is " + NewTrans)
+transportation_means.insert(2, "Tesla")
+print(transportation_means)
  
 
 # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
