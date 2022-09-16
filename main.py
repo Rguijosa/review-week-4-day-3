@@ -114,16 +114,16 @@
 # print("first word is: " + all_words[0])
 
 
-# create a text input that asks for choice of food
-foodChoice = input("What is your favorite food? ")
-#create an empty list variable called food
-food= []
-# add 3 items from the user into the empty list
-food.append(foodChoice)
-food.append(foodChoice)
-food.append(foodChoice)
-#print out the menu list
-print(food)
+# # create a text input that asks for choice of food
+# foodChoice = input("What is your favorite food? ")
+# #create an empty list variable called food
+# food= []
+# # add 3 items from the user into the empty list
+# food.append(foodChoice)
+# food.append(foodChoice)
+# food.append(foodChoice)
+# #print out the menu list
+# print(food)
 ############################### ###############################################################################
 # what are tuples?
 # exactly the same thing as an array only it is immutable, once you define the tuple, you cannot change it or modify it
@@ -132,19 +132,24 @@ print(food)
 #example
 coordinates = (4, 5)
 # get the first element in the above tuple
+print(coordinates[1])
 # lets make this a multidimensional array
-coordindates2 = [(4, 5), (6, 7), (80, 34)]
+coordinates2= [(4, 5), (6, 7), (80, 34)]
 #get the second element of the second item in coordinates2
+print(coordinates2[1][1])
 
 # we use parentheses not [] in tuples
 my_tuple1 = (1, 2, 3, 4)
 # get the second item in the tuple1 above
 my_tuple = (1, 2, (10, 20), 4)
+
 # get the second item in the 3rd item above
 #hint multidimensional array thinking
 
 # place these numbers in separate variables from the tuple below
 t = (1, 2, 3)
+x,y,z = t
+print(x,y,z)
 
 #get me the length of the above tuple --- there are two ways of doing this... len(), count()...  use count if you want to get how many times an item appears in a tuple
 
